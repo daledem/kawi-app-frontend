@@ -9,7 +9,7 @@ function News(){
     const VITE_REACT_APP_API_KEY = import.meta.env.VITE_REACT_APP_API_KEY;
 
     useEffect(() => {
-        fetch(`https://newsapi.org/v2/top-headlines?category=sports&pageSize=7&apiKey=${VITE_REACT_APP_API_KEY}`)
+        fetch(`https://newsapi.org/v2/top-headlines?category=sports&pageSize=6&apiKey=${VITE_REACT_APP_API_KEY}`)
             .then(response => response.json())  // convertir a json
             .then(json => {
                 if(json["status"] === "ok"){

@@ -36,6 +36,7 @@
 }
 
 .layer2{
+    background-color: orangered;
     background-image: url('./svg/layered-waves-haikei-horizontal.svg');
 }
 
