@@ -1,28 +1,27 @@
-#root{
+#index-root{
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-between;
 
 }
 
 body{
     background-color: orange;
     margin: 0;
-    overflow: hidden;
+    background-size: cover;
 }
 
 
-header{
+.index-header{
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.menu{
+.index-menu{
     background-color: orangered;
     height: 100%;
     min-width: 30vw;
@@ -33,13 +32,19 @@ header{
     gap: 10vh;
 }
 
-button{
+.index-button{
     margin: 0;
     width: 25vw;
     background-color: orange;
 }
 
-.spacer{
+.index-button a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.spacer1{
     aspect-ratio: 300/960;
     height: 100%;
     background-repeat: no-repeat;
