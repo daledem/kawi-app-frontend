@@ -1,0 +1,27 @@
+.news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+    background-color: antiquewhite;
+    padding: 18px;
+    gap: 8px;
+}
+
+.news-image{
+    border-radius: 8px;
+    width: 10vw;
+    height: 10vh;
+}
+
+/* .news-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.news-content-title{
+    font-size: 1vw;
+    margin: 0;
+}
