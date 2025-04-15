@@ -1,42 +1,37 @@
-#news-root{
-    height: 100vh;
+#root{
     width: 100vw;
+    height: 100vh;
+}
+
+.map-header{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 4vh;
+}
+
+.map-root{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
 }
 
-.news-header{
-    flex-grow: 0;
-    height: 15vh;
-}
-
-.news-articles{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    gap: 32px;
-    background-color: orangered;
-}
-
-.news{
-    width: 25vw;
-    height: 18vh;
-}
-
-.spacer2{
+.spacer3{
+    position: absolute;
+    top: 12vh;
     aspect-ratio: 960/150;
     width: 100%;
     height: 20vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    z-index: 100000000;
 }
 
-.layer2{
-    background-color: orangered;
+.layer3{
     background-image: url('./svg/layered-waves-haikei-horizontal.svg');
 }
 
